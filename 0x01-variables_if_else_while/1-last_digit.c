@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-* main - program with if .. else and printf
-*
-* Return: 0 ( 0 = Success)
-*/
 
+/**
+* main - program to print with if function
+*
+* Return: 0 is
+*/
 int main(void)
 {
 int n;
