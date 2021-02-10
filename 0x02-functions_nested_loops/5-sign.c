@@ -6,6 +6,7 @@
 *
 * Return: 0 is success
 */
+
 int print_sign(int n)
 {
 	if (n > 0)
