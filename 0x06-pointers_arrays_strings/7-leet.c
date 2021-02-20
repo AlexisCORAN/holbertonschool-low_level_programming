@@ -15,11 +15,11 @@ char *leet(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if ( str[i] == 'a' || str[i] == 'A' || str[i] == 'e' || str[i] == 'E' ||
+		if (str[i] == 'a' || str[i] == 'A' || str[i] == 'e' || str[i] == 'E' ||
 		    str[i] == 'o' || str[i] == 'O' || str[i] == 't' || str[i] == 'T' ||
 		    str[i] == 'l' || str[i] == 'L')
 		{
-			for (j = 0;str[i] != letters[j]; j++)
+			for (j = 0; str[i] != letters[j]; j++)
 			{}
 				str[i] = numbers[j];
 		}
