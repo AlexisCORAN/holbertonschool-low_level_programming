@@ -1,12 +1,25 @@
 #include "holberton.h"
-
+/**
+* cap_string -  function that capitalizes all words of a string.
+*
+* fn_separador - characteres.
+*
+*@str: string
+*
+*Return: string capitalizate.
+*
+*/
 int fn_separador(char c)
-{	int i;
-	char separadores[] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '\"', '(', ')', '{', '}'};
+{
+	int i;
+
+	char separadores[] = {' ', '\t', '\n', ',', ';', '.',
+	'!', '?', '\"', '(', ')', '{', '}'};
 
 	for (i = 0; i <= 12; i++)
 	{
-		if (c == separadores[i]) return (1);
+		if (c == separadores[i])
+			return (1);
 	}
 	return (0);
 }
