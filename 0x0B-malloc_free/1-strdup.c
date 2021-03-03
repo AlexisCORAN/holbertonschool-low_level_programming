@@ -16,15 +16,16 @@ char *_strdup(char *str)
 	int i;
 	int len = 0;
 
+	if (str == NULL)
+		retunr ( NULL);	
+
 	for (i = 0; str[i] != '\0'; i++)
 		len++;
-
 	
 	copy_array =  malloc(sizeof(char) * (len));
 
-	if (str == (NULL) || copy_array == NULL)
+	if (copy_array == NULL)
 		return (NULL);
-
 
 	for (i = 0; str[i] != '\0'; i++)
 		copy_array[i] = str[i];
