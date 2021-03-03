@@ -29,16 +29,14 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; s1[i] != '\0'; i++)
 	{
-		concat[c] = s1[i];
-		c++;
+		concat[c++] = s1[i];
 	}
 
 	for (i = 0; s2[i] != '\0'; i++)
 	{
-		concat[c] = s2[i];
+		concat[c++] = s2[i];
 		c++;
 	}
-	concat[c] = '\0';
 
 	return (concat);
 }
