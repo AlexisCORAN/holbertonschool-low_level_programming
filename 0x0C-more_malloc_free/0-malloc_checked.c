@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-*malloc_checked - Write a function that allocates memory using malloc.
+*malloc_checked - function that allocates memory using malloc.
 *
 *b: integer to be checked.
 *
