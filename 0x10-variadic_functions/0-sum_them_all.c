@@ -2,11 +2,12 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all -  function that prints numbers, followed by a new line.
- * @n:  numbers
- *
- * Return: sum of the numbers.
- */
+*sum_them_all -  function that prints numbers, followed by a new line.
+*
+*@n:  numbers
+*
+*Return: sum of the numbers.
+*/
 
 int sum_them_all(const unsigned int n, ...)
 {
