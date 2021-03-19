@@ -1,8 +1,8 @@
 # C - Singly linked lists
 
- proyect about linked lists.
+Proyect about linked lists.
 
-## Getting started 🚀
+## Getting started
 
 * Allowed editors: vi, vim, emacs.
 * All your files will be compiled on Ubuntu 14.04 LTS.
@@ -37,7 +37,7 @@ gcc -Wall -Werror -Wextra and -pedantic
 
 ## Autores
 
-* **Alexis Coronado.
+* Alexis Coronado.
 
 
 
