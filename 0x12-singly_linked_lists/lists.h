@@ -2,6 +2,7 @@
 #define _LISTS_H_
 
 #include <stdio.h>
+
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -11,7 +12,6 @@
  * Description: singly linked list node structure
  * for Holberton project
  */
-
 
 typedef struct list_s
 {
